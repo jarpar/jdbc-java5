@@ -8,7 +8,7 @@
 <h1>Dodaj nowe pytanie do quiz'u</h1>
 <form method="post">
     <label for="qbody">Treść pytania</label>
-    <input id="qbody" type="text" name="qbody">
+    <textarea id="qbody" name="body" placeholder="Wpisz treść pytania" rows="5"></textarea>
     <fieldset>
         <label for="option1">Opcja odpowiedzi nr 1</label>
         <input id="option1" name="option1" type="text">
@@ -27,7 +27,7 @@
         <option>4</option>
     </select>
     <label for="points">Punkty za poprawną odpowiedź"</label>
-    <input id="points" name="points" type="number" min="1" max="10">
+    <input id="points" name="points" type="number" min="1" max="10" step="1">
     <input type="submit" value="Prześlij">
 </form>
 </body>
