@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularze</title>
+</head>
+<body>
+<h1>Formularz logowania</h1>
+<!--
+metoda get - hasło otwartym tekstem w adresie,ograniczona ilośc znaków:
+<form method="get">
+metoda post  - parametry formularza nie są wysyłane w pasku adresu, ma nieograniczoną długość ciągu danych, można podejżeć w konsoli:
+<form method="post">
+-->
+<form method="post" action="ex1.html">
+    <label for="login">Login</label>
+    <input id="login" type="text" name="login" placeholder="Wpisz swój login"><br>
+    <label>Hasło</label>
+    <input type="password" name="password" placeholder="Wpisz swoje hasło"><br>
+    <input type="submit" value="Zaloguj"><br>
+    <button type="reset">Wyczyść formularz</button>
+</form>
+<br>
+<h1>Formularz preferencji</h1>
+<form>
+    <fieldset>
+        imię: <input type="text" name="firstName"><br>
+        email: <input type="email" name="email"><br>
+        data: <input type="date" name="birthDate"><br>
+    </fieldset>
+    <fieldset>
+        Ulubiony kolor:
+        <select name="fcolor">
+            <option value="red">Czerwony</option>
+            <option value="green">Zielony</option>
+            <option value="blue">Niebieski</option>
+        </select>
+        <br>
+        Ulubione zwierzęta:
+        <select name="fanimal" multiple>
+            <option value="cat">Kot</option>
+            <option value="dog">Pies</option>
+            <option value="cavia">Kawia</option>
+            <option value="fishes">Rybki</option>
+        </select>
+        <br>
+        Ulubione imię:
+        <input type="text" name="fname" list="fnames"><br>
+        <datalist id="fnames">
+            <option>Agnieszka</option>
+            <option>Monika</option>
+            <option>Karolina</option>
+        </datalist>
+    </fieldset>
+    <input type="submit" value="Zapisz">
+</form>
+</body>
+</html>

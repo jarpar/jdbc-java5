@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz quizu</title>
+</head>
+<body>
+<h1>Dodaj nowe pytanie do quiz'u</h1>
+<form method="post">
+    <label for="qbody">Treść pytania</label>
+    <input id="qbody" type="text" name="qbody">
+    <fieldset>
+        <label for="option1">Opcja odpowiedzi</label>
+        <input id="option1" name="option1" type="text">
+        <label for="option2">Opcja odpowiedzi</label>
+        <input id="option2" name="option2" type="text">
+        <label for="option3">Opcja odpowiedzi</label>
+        <input id="option3" name="option3" type="text">
+        <label for="option4">Opcja odpowiedzi</label>
+        <input id="option4" name="option4" type="text">
+    </fieldset>
+    <label for="validOption">Numer poprawnej odpowiedzi</label>
+    <select name="validOption" id="validOption">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</form>
+</body>
+</html>
