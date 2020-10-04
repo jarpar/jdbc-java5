@@ -13,6 +13,26 @@ p {
     font-size: 20px;
 }
 
-.with-red-font-color{
+.with-red-font-color {
+    color: red;
+}
+
+.colored-lines :nth-child(odd) {
+    background-color: gainsboro;
+}
+
+.colored-lines :nth-child(even) {
+    background-color: darkseagreen;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    color: green;
+}
+
+input:invalid {
     color: red;
 }
