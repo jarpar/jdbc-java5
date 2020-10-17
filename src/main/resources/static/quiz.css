@@ -1,0 +1,26 @@
+
+input {
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+select {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+label {
+    display: block;
+    padding: 5px 5px;
+    color: blue;
+}
+
+textarea {
+    margin: 0 0 10px 0;
+}
+
+.quiz-form {
+    margin: 0 auto;
+    width: 30em;
+    color: red;
+}
