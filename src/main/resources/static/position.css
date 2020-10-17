@@ -37,3 +37,8 @@
 .bottom {
     background-color: violet;
 }
+
+.sticky {
+    position: sticky;
+    background-color: lightblue;
+}
