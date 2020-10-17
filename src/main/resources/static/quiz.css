@@ -1,7 +1,13 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: red;
+    background-color: lightblue;
+}
 
 input {
     display: block;
     margin: 0 0 5px 0;
+    width: 100%;
 }
 
 select {
@@ -13,14 +19,16 @@ label {
     display: block;
     padding: 5px 5px;
     color: blue;
+    font-style: italic;
+    text-align: center;
 }
 
 textarea {
     margin: 0 0 10px 0;
+    width: 100%;
 }
 
 .quiz-form {
     margin: 0 auto;
     width: 30em;
-    color: red;
 }
