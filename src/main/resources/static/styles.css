@@ -36,3 +36,15 @@ a:hover {
 input:invalid {
     color: red;
 }
+
+@media all and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media all and (min-width: 600px) {
+    body {
+        background-color: coral;
+    }
+}
